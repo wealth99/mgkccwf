@@ -78,6 +78,9 @@ header .top a:last-child:after {display: none;}
 @media (max-width:600px) {
     .slide-util {bottom:182px;max-width:calc(100% - 80px);}
 }
+@media (max-width:480px) {
+    .slide-util {bottom:146px;max-width:calc(100% - 94px);}
+}
 
 .shortcut {background:#071C56;padding:48px}
 .shortcut ul {display: flex;align-items: center;justify-content: space-between;}
