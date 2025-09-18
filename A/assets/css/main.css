@@ -257,6 +257,8 @@ background-color: linear-gradient(156deg, rgba(247, 246, 251, 1) 0%, rgba(248, 2
     .qna-content .acc-item.on .acc-title:before {width:90%}
     .qna-content .acc-cont {padding:20px 16px}
     .qna-content .acc-cont p {font-size:14px; color:#000}
+    .qna-content .acc-title .acc-icon {width: 12px;height:12px;background-size: contain;}
+    .qna-content .acc-item.on .acc-title .acc-icon {background-size: contain;}
 }
 .banner.mo {display: none;}
 
@@ -302,7 +304,8 @@ background-color: linear-gradient(156deg, rgba(247, 246, 251, 1) 0%, rgba(248, 2
     .news-content .news-wrap {flex-direction: column;background:#fff;padding:16px;border-radius: 24px;}
     .news-content .news-wrap .news .badges,.news-content .news-wrap .news span {display: none;}
     .news-content .news-wrap .news {width:100%;border:none;height:36px;padding:9px}
-    .news-content .news-wrap .news p {font-size: 14px;max-width:none;padding-left: 40px;margin:0;}
+    .news-content .news-wrap .news p {position:relative;font-size: 14px;max-width:none;padding-left: 40px;margin:0;}
+    .news-content .news-wrap .news p:after {position:absolute;content: '';width:12px;height:12px;background:url(../images/icon-acc-up.svg)no-repeat center;transform: rotate(90deg);background-size: contain;top: 25%;right: 25px;}
     .news-content .news-wrap .news:nth-of-type(1),
     .news-content .news-wrap .news:nth-of-type(2),
     .news-content .news-wrap .news:nth-of-type(3), 
