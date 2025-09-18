@@ -155,7 +155,7 @@ background-color: linear-gradient(156deg, rgba(247, 246, 251, 1) 0%, rgba(248, 2
 }
 @media (max-width: 850px) {
     .tab-content {background-image: none;padding:80px 0 40px}
-    .tab-content .tab-btn .item {height:44px;border-radius: 12px;padding:12px; 14px;width:fit-content}
+    .tab-content .tab-btn .item {height:44px;border-radius: 12px;padding:12px 14px;width:fit-content}
     .tab-content .tab-btn .item p {font-size:16px;padding-left: 34px;}
     .tab-content .tab-btn .item:before {width: 40px;background-size: contain;height: 40px;left:5px;}
     .tab-content .tab-btn .item br {display: none;}
