@@ -2,7 +2,7 @@
 .inner {width:100%;max-width:1080px;margin:0 auto;}
 .inner.type2 {width:100%;max-width:1320px;margin:0 auto;}
 br.mo {display:none}
-
+.wrap {overflow: hidden;}
 @media (max-width: 1320px) {
     .inner {width:90%;max-width:none;}
     .inner.type2 {width:90%;max-width:none;}
@@ -118,7 +118,7 @@ background-color: linear-gradient(156deg, rgba(247, 246, 251, 1) 0%, rgba(248, 2
 .tab-content .title {position:relative;text-align: center;}
 .tab-content .title h2 {display:inline-block;position: relative;text-align: center;font-size: 48px;color:#181A1B;font-weight: bold;z-index: 1;}
 .tab-content .title span {position:absolute;content:'';width:380px;height:28px;background:#66B9E7;bottom:0;opacity: .3;left:50%;transform: translateX(-50%);}
-.tab-content .tab-btn {margin-top: 67px;}
+.tab-content .tab-btn {margin-top: 67px;width:200%;}
 .tab-content .tab-btn .slick-list {margin:0 -15px;}
 .tab-content .tab-btn .slick-slide { margin: 0 15px;}
 .tab-content .tab-btn .item {position:relative;width:284px;height:145px;border:1px solid #F1F1F5;padding:40px 42px;border-radius: 24px;background-color:#fff;;}
