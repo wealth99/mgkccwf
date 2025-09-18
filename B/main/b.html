@@ -4,23 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../assets/style/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="pc">
-        <img src="../assets/image/1.png" alt="">
-        <img src="../assets/image/2.png" alt="">
-        <img src="../assets/image/3.png" alt="">
-        <img src="../assets/image/4.png" alt="">
-        <img src="../assets/image/5.png" alt="">
+        <img src="1.png" alt="">
+        <img src="2.png" alt="">
+        <img src="3.png" alt="">
+        <img src="4.png" alt="">
+        <img src="5.png" alt="">
     </div>
 
     <div class="mo">
-        <img src="../assets/image/mo_1.png" alt="">
-        <img src="../assets/image/mo_2.png" alt="">
-        <img src="../assets/image/mo_3.png" alt="">
-        <img src="../assets/image/mo_4.png" alt="">
-        <img src="../assets/image/mo_5.png" alt="">
+        <p class="mo-btn">
+            <img src="mo_1.png" alt="">
+            <button type="button" id="moButton"><img src="mo_btn.png" alt="메뉴열기"></button>
+            <img src="mo_dim.png" alt="" class="mo-dim">
+        </p>
+        <img src="mo_2.png" alt="">
+        <img src="mo_3.png" alt="">
+        <img src="mo_4.png" alt="">
+        <img src="mo_5.png" alt="">
     </div>
+
+    <script>
+        const button = document.getElementById('moButton');
+        const closeB = document.querySelector('.mo-dim');
+        button.addEventListener('click', function () {
+            closeB.classList.add('on');
+        });
+        closeB.addEventListener('click', function (e) {
+            e.target.classList.remove('on');
+        });
+
+        
+    </script>
 </body>
 </html>

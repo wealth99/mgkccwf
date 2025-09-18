@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+    padding:0;
+    margin: 0;
+    vertical-align: top;
+}
+
+img{
+    width: 100%;
+}
+
+button{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+body{
+    background-color: #EDF1F6;
+}
+
+.mo{
+    display: none;
+}
+
+@media only screen and (max-width: 720px) {
+    .pc{
+        display: none;
+    }
+
+    .mo{
+        display: block;
+    }
+
+    .mo-btn{
+        position: relative;
+    }
+    .mo-btn button{
+        position: absolute;
+        bottom: 40px;
+        right: 20px;
+        width: 60px;
+    }
+
+    .mo-dim{
+        display: none;
+    }
+    .mo-dim.on{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
