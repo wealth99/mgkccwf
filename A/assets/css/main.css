@@ -59,6 +59,10 @@ header .top a:last-child:after {display: none;}
 @media (max-width:600px) {
     .visual .slide-item .txt-box {margin-bottom: 100px;}
 }
+@media (max-width:420px) {
+    .visual .slide-item .txt-box {position:absolute;left:0;top:10%;}
+    .visual .slide-item img {transform: scale(1);z-index:0;right:-20px;}
+}
 
 .slide-util {width:100%;max-width:1025px;height: 14px;margin:0 auto;position:relative;bottom:78px}
 .slide-util .slick-dots li { float: left; margin-right:8px;}
@@ -80,6 +84,10 @@ header .top a:last-child:after {display: none;}
 }
 @media (max-width:480px) {
     .slide-util {bottom:146px;max-width:calc(100% - 94px);}
+}
+
+@media (max-width:420px) {
+    .slide-util {bottom:233px;}
 }
 
 .shortcut {background:#071C56;padding:48px}
