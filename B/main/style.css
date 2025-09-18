@@ -43,9 +43,9 @@ body{
     }
     .mo-btn button{
         position: absolute;
-        bottom: 40px;
-        right: 20px;
-        width: 60px;
+        bottom: 5%;
+        right: 4%;
+        width: 16%;
     }
 
     .mo-dim{
